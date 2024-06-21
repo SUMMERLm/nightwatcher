@@ -1,0 +1,6 @@
+
+image:
+  repository: 121.40.102.76:30080/nightwatcher
+  pullPolicy: Always
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: v2.0.1
