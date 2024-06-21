@@ -1,0 +1,6 @@
+FROM scratch
+
+ADD cmd/bin/cdn /cdn
+
+EXPOSE 53 53/udp
+ENTRYPOINT ["/cdn"]

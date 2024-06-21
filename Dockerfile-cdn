@@ -1,0 +1,6 @@
+FROM scratch
+
+ADD cmd/bin/ /
+
+EXPOSE 54 54
+ENTRYPOINT ["/cdn"]

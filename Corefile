@@ -1,0 +1,6 @@
+arservice.cloud:53 {
+    crossdns
+    errors
+    health
+    ready
+}
